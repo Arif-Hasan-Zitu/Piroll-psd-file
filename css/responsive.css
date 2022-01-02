@@ -1,0 +1,285 @@
+/* Normal desktop :1200px. */
+@media only screen  and (max-width: 1500px) {
+  .main-inner {
+  	padding: 0 0px;
+  }
+  .skill-image {
+	height: 645px;
+	display: flex;
+	align-items: center;
+}
+
+}
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199.8px) {
+.full-img-area .full {
+  	width: 960px;
+}
+.main-inner {
+	padding: 0 0px;
+}
+  .slider-content {
+	padding-left: 20px;
+}
+.slider-content h2 {
+	font-size: 35px;
+}
+  .slider-content p {
+	font-size: 17px;
+}
+.about-area .section-title p {
+	width: 75%;
+}
+.skill-wrapper {
+	padding-left: 20px;
+}
+.video-area .section-title p {
+	width: 60%;
+}
+.process-title {
+	padding-left: 10px;
+}
+.services-title p {
+	font-size: 14px;
+	width: 100%;
+}
+.testimonial-content p {
+	width: 80%;
+}
+.contact-area .section-title p {
+	width: 65%;
+}
+.contact-form {
+	padding: 0 85px;
+}
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991.98px) {
+.full-img-area .full {
+    	width: 720px;
+}
+.header-area ul.main-nav li {
+	padding-left: 30px;
+}
+.slider-box {
+	min-height: 550px;
+}
+.slider-content {
+	padding-left: 0;
+}
+.slider-content h2 {
+	font-size: 28px;
+}
+.slider-content p {
+	font-size: 13px;
+	line-height: 24px;
+}
+.slider-content a.s-btn{
+  margin-top: 20px;
+}
+.about-area .section-title p {
+	width: 100%;
+}
+.skill-wrapper {
+	min-height: 510px;
+	padding: 50px;
+	padding-right: 0;
+}
+.process-title {
+	padding: 0;
+}
+.process-icon i {
+	font-size: 90px;
+	margin-bottom: 20px;
+}
+.process-title span {
+	font-size: 30px;
+}
+.video-area .section-title p {
+	width: 80%;
+}
+.services-title p {
+	font-size: 15px;
+	width: 100%;
+}
+.testimonial-content p {
+	width: 92%;
+}
+.contact-area .section-title p {
+	width: 88%;
+}
+.contact-form {
+	padding: 0 20px;
+}
+.list2 {
+	padding-left: 20px;
+}
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){
+
+  .skill-image {
+    height: 0;
+  }
+  .skill-area .section-title h3 {
+    font-size: 28px;
+  }
+  .skill-area .col-sm-12 {
+    padding-left: 0;
+  }
+.process-title {
+	padding-left: 0;
+	margin-top: 15px;
+}
+.process-title span {
+	font-size: 26px;
+	line-height: 20px;
+}
+.process-title p {
+	font-size: 13px;
+	margin-top: 5px;
+}
+.video-area .section-title p {
+	width: 100%;
+}
+.servies-area {
+	padding-top: ;
+	padding: 50px 0;
+}
+.services-icons i {
+	font-size: 60px;
+}
+.services-title h5 {
+	font-size: 15px;
+	font-weight: 700;
+}
+.services-title p {
+	font-size: 13px;
+	line-height: 16px;
+	width: 100%;
+}
+.testimonial-content p {
+	width: 96%;
+  margin-bottom: 10px;
+}
+.testimonial-area {
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+.slick-dots {
+	bottom: -50px;
+}
+.contact-area .section-title p {
+	width: 83%;
+	line-height: 24px;
+	margin-bottom: 40px;
+}
+.contact-form {
+	padding: 0 5px;
+}
+.footer-weiged {
+	margin-bottom: 60px;
+}
+.list2 {
+	width: 50%;
+  float: left;
+	padding-left: 6px;
+}
+
+}
+/* small mobile :320px. */
+@media (max-width: 767.98px){
+  .skill-wrapper {
+    padding: 15px 0;
+    padding-left: 15px;
+    min-height: 0;
+  }
+  .full-img-area .full {
+    width: 540px;
+  }
+  .logo-image {
+  	margin-top: 10px;
+    padding-left: 20px;
+  }
+  .main-nav{
+      display: none;
+  }
+  .mobile-manu span {
+	display: block;
+}
+.slider-content {
+	padding-left: 0;
+}
+.slider-box {
+	min-height: 770px;
+}
+.slider-image {
+	margin-top: 80px;
+}
+.slider-content {
+	margin-top: 40px;
+}
+.section-title p {
+	width: 95%;
+}
+.process-icon i {
+	font-size: 60px;
+}
+
+}
+/* small mobile :320px. */
+@media (max-width: 575.98px) {
+  .transparent-header {
+  	right: 40px;
+  }
+  .slider-content {
+	text-align: center;
+}
+  .slider-content h2 {
+	font-size: 22px;
+	font-weight: 700;
+}
+  .slider-content p {
+	font-size: ;
+	width: 100%;
+	margin: auto;
+	font-size: 20px;
+}
+.skill-image {
+	height: 100%;
+}
+.process-title {
+	padding-left: 0;
+}
+.video-area .section-title p {
+	width: 100%;
+}
+.testimonial-area {
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+.testimonial-content p {
+	font-size: 20px;
+	width: 100%;
+}
+.slick-dots {
+	bottom: -60px;
+}
+.contact-area .section-title p {
+	width: 100%;
+}
+.contact-form {
+	padding: 0;
+}
+.footer-weiged {
+	margin-bottom: 50px;
+}
+.footer-content {
+	text-align: left;
+}
+
+}
